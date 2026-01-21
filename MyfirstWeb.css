@@ -1,0 +1,29 @@
+body{
+    border: 5px solid black;
+    display: flow-root;
+    background-color: rgb(0, 235, 252);
+}
+#username{
+    background-color: grey;
+    color: rgb(0, 217, 255);
+}
+#password{
+    background-color: grey;
+    color: rgb(0, 217, 255);
+}
+#email{
+    background-color: grey;
+    color: rgb(0, 217, 255);
+}
+#bday{
+    background-color: grey;
+    color: rgb(0, 217, 255);
+}
+#quantity{
+    background-color: grey;
+    color: rgb(0, 217, 255);
+}
+#comment{
+    background-color: grey;
+    color: rgb(0, 217, 255);
+}
