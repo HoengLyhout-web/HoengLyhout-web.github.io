@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyfirstWebsite😊</title>
+    <link rel="stylesheet" href="MyfirstWeb.css"
+</head>
+<body>
+    <h1>My portfolio</h1>
+    <p>Welcome to my first website!</p>
+    <button id = "clickBtn">Click me!</button>
+    <p id ="message"></p>
+    <p>made by Hoeng Lyhout😊</p>
+    <p>Scan this to share my site!</p>
+    <img src="qr-code (1).png" alt="My Website QR Code" width = "150">
+    <script src="MyfirstWeb.js"></script>
+
+    <header style="background-color: blue">
+            <h1>Welcome to Lyhout teaching</h1>
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a href="">Products</a>
+            <a href="">Contact Us</a>
+            <hr>
+        </header>
+
+        <form action="index.php" method="POST" enctype="multipart/form-data">
+
+            <label for="username">username:</label>
+            <input type="text" id="username" placeholder="enter here" minlength="6" maxlength="15" required> <br>
+
+            <label for="password">password:</label>
+            <input type="text" id="password" placeholder="enter your password here" minlength="6" maxlength="15" required> <br>
+
+            <label for="email">email:</label>
+            <input type="email" id="email" placeholder="example@email.com" minlength="6" maxlength="15" required> <br>
+
+            <label for="bday">birthdate:</label>
+            <input type="date" id="bday" minlength="6" maxlength="15" required> <br>
+
+            <label for="quantity">quantity:</label>
+            <input type="number" id="quantity" minlength="6" maxlength="15" required> <br>
+
+            <label for="title">title:</label>
+            
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." vslue="Mr." name="title"> 
+
+            <label for="Ms.">Ms.</label>
+            <input type="radio" id="Ms." value="Ms." name="title"> 
+
+            <label for="PhD.">PhD.</label>
+            <input type="radio" id="PhD." value="PhD." name="title"> <br>
+
+            <label for="payment">payment</label>
+            <select>
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="giftcard">giftcard</option>
+            </select> <br> 
+
+            <label for="you're not a robot">you're not a robot</label>
+            <input type="checkbox" id="you're not a robot"> <br>
+
+            <label for="comment">comment:</label>
+            <textarea id="comment" rows="3" cols="25"></textarea> <br>
+
+            <label for="file">file:</label> <br>
+            <input type="file" id="file" accept="image/png, image/jpeg"> <br>
+
+            <label class="form-row">
+
+                <input type="checkbox" id="subscribe" name="subscribe" required /> 
+                    agree to this contract
+                </label> <br>
+
+                <input type="reset"> <br> 
+
+                <div class="form-row">
+                    <input type="submit" value="Submit" /> 
+                </div> <br>
+ 
+                <button id = "clickBtn">Click me for something special!</button>
+                <p id ="message"></p>
+                <script src="script.js"></script>
+
+                <a href="http://www.google.com/" 
+                target="_blank"
+                title="Goes to google">
+                click me
+                </a>
+
+                <br>
+
+                <a href="index.html"
+                target="_blank"
+                title="Goes to My portfolio page">
+                My portfolio
+                </a>
+
+                <br>
+
+                <a href="mailto:test@fake.com"
+                target="_blank"
+                title="Goes to email me page">
+                email me
+                </a>
+        
+        <footer style="background-color: red">
+            <hr>
+            author: Lyhout <br>
+            &copy; copyright reserved <br>
+            <small><a href="mailto:Lyhout@fake.com">Lyhout@fake.com</a></small>
+        </footer>
+
+</body>
+</html>
